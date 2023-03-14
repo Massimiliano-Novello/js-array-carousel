@@ -14,13 +14,16 @@ img {
     height: 100vh;
     display: flex;
     align-items: center;
+    background-color: #083B4C;
 }
 
 .slide {
     position: relative;
     width: 50%;
     margin: 0 auto;
-    background-color: blue;
+    background-color: white;
+    border: 20px solid white;
+    border-radius: 30px;
 }
 
 .slide-items {
@@ -30,6 +33,7 @@ img {
 
 .item {
     height: 100%;
+    display: none;
 }
 
 .item.active {
@@ -43,6 +47,7 @@ img {
 .item img {
     width: 100%;
     height: 100%;
+    border-radius: 30px;
     object-fit: cover;
 }
 
@@ -54,6 +59,7 @@ img {
     background-color: rgba(255, 255, 255, 0.8);
     width: 30px;
     height: 30px;
+    border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -68,6 +74,7 @@ img {
     background-color: rgba(255, 255, 255, 0.8);
     width: 30px;
     height: 30px;
+    border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
